@@ -3,7 +3,7 @@ Utility programs/scripts written while completing Programming Foundations with P
 
 1. draw turtle
 
-   A script which uses the tutle module to draw shapes using animations on a customized window
+   A script which uses the turtle module to draw shapes using animations on a customized window
    
 2. Profanity editor
 
