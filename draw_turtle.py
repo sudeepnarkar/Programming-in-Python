@@ -19,20 +19,20 @@ def drawArt():
     window.bgcolor("black")
 
 
-    sudeep = turtle.Turtle()
-    sudeep.color("red")
-    sudeep.shape("turtle")
-    sudeep.speed(2)
+    jack = turtle.Turtle()
+    jack.color("red")
+    jack.shape("turtle")
+    jack.speed(2)
 
     for i in range(1,5):
         drawSquare(sudeep)
         sudeep.right(10)
 
 
-    narkar = turtle.Turtle()
-    narkar.color("blue")
-    narkar.shape("turtle")
-    narkar.speed(2)
+    sparrow = turtle.Turtle()
+    sparrow.color("blue")
+    sparrow.shape("turtle")
+    sparrow.speed(2)
 
     for i in range(1,10):
         drawCircle(narkar)

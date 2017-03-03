@@ -1,14 +1,14 @@
 import os
 
 def rename_files():
-    files_list = os.listdir("/home/sudeep/Udacity - Programming foundations with python/Rename files/prank /prank")
+    files_list = os.listdir("directory path")
    # print(files_list)
     char_delete="0123456789"
 
     current_dir = os.getcwd()
     print("Current working directory:"+current_dir)
 
-    os.chdir("/home/sudeep/Udacity - Programming foundations with python/Rename files/prank /prank")
+    os.chdir("directory path")
     
     for file_name in files_list:
         print("Old filename:"+file_name)

@@ -3,7 +3,7 @@ import urllib
 
 def read_text():
     counter=0;
-    with open("/home/sudeep/Udacity - Programming foundations with python/Profanity_editor/movie_quotes.txt") as fp:
+    with open("file-path") as fp:
         for line in fp:
             output = profanity_check(line)        
             if output is "true":
