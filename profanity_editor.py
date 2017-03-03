@@ -7,10 +7,10 @@ def read_text():
         for line in fp:
             output = profanity_check(line)        
             if output is "true":
-                print("Cuss word found in line:"+line)
+                print("Curse word found in line:"+line)
                 counter=counter+1
         if(counter==0):
-            print("File has been proof-read. No cuss words found! Congratulations!")
+            print("File has been proof-read. No curse words found! Congratulations!")
     
     #file_content=file.read()
     #print(file_content)
